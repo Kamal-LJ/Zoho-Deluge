@@ -52,7 +52,7 @@ Contributions to this repository are welcome! If you have any Zoho Deluge code s
 2. Create a new branch for your code contribution:
 
    ```
-   git checkout -b your-branch-name
+   git checkout -b Kamal-LJ/Zoho-Deluge
    ```
 
 3. Add your code snippets or scripts to the repository.
@@ -68,5 +68,3 @@ Your contributions will be reviewed, and if approved, they will be merged into t
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code snippets and scripts in this repository according to the terms of the license.
 
 ---
-
-Feel free to customize this README file based on your specific needs, including adding more details about your code snippets, providing examples, or including any additional sections you find relevant.
