@@ -1,0 +1,22 @@
+// Sample Pricing table below
+pricingTable = [{"sqty":1,"eqty":25,"price":20},{"sqty":26,"eqty":50,"price":13},{"sqty":51,"eqty":100,"price":7.5},{"sqty":101,"eqty":500,"price":6.5}];
+// Quantity
+qty = 450;
+price =0;
+// calculating the price for differential pricing
+for each item in pricingTable 
+{
+	slabqty = item.get("eqty") - item.get("sqty") +1;
+    if (qty >= slabqty)
+	{
+      	price += item.get("price")*slabqty;
+		    qty = qty - slabqty;
+    }
+	else
+	{
+	   price  += item.get("price")*qty;
+	   break;
+	}
+ }
+// price for a quantity
+ info price;
