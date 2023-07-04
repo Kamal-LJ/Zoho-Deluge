@@ -21,7 +21,7 @@ To use the code snippets and scripts in this repository, follow these steps:
 1. Clone the repository to your local development environment using the following command:
 
    ```
-   git clone https://github.com/your-username/zoho-deluge-code-repo.git
+   git clone https://github.com/Kamal-LJ/Zoho-Deluge.git
    ```
 
 2. Open your preferred Zoho application development environment (e.g., Zoho Creator, Zoho CRM custom functions).
